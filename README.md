@@ -1,6 +1,6 @@
 # Docker Guide
 
-### How to use an existing image from dockerhub : docker/getting-started
+## How to use an existing image from dockerhub : docker/getting-started
 
 1 . docker pull docker/getting-started
 
@@ -13,7 +13,8 @@
 
 # Create , Push and Pull
 
-### 1 . Create an image :
+
+## 1 . Create an image :
 
 1 . Write your webapp and programs . Create a Dockerfile
 
@@ -22,7 +23,7 @@
 3 . docker images
 
 
-### 2 . Run an image :
+## 2 . Run an image :
 
 1 . docker run -d -p 5000:5000 welcome-app
 
@@ -45,7 +46,7 @@ docker ps
 docker images
 
 
-### 3 . Push to Dockerhub :
+## 3 . Push to Dockerhub :
 
 1 . docker build -t jateendra/welcomeapp .
 
@@ -60,7 +61,7 @@ docker images
      give your cridentials
      ```
      
-### 4 . Pull from Dockerhub :    
+## 4 . Pull from Dockerhub :    
 
 1 . docker pull jateendra/welcomeapp
 
